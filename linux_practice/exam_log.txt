@@ -22,3 +22,17 @@
    22  php -v
    23  git checkout -b finalexam
    24  history > exam_log.txt
+   25  git add exam_log.txt
+   26  git commit -m "Added exam_log.txt with command history"
+   27  git push origin final exam
+   28  git branch
+   29  git checkout finalexam
+   30  git add exam_log.txt
+   31  git commit -m "Added exam_log.txt with command history"
+   32  git add
+   33  git add .
+   34  git status
+   35  git commit -m "Added exam_log.txt with command history"
+   36  git push origin finalexam
+   37  git checkout -b finalexam
+   38  history > exam_log.txt
