@@ -1,0 +1,38 @@
+    1  mkdir linux_practice
+    2  cd linux_practice
+    3  touch notes.txt
+    4  ls >> notes.txt
+    5  cat notes.txt
+    6  echo "Hello, Linux" > notes.txt
+    7  echo "This is a practical exam." >> notes.txt
+    8  head -n 1 notes.txt
+    9  tail -n 1 notes.txt
+   10  mkdir subdir
+   11  mv notes.txt subdir/
+   12  mv subdir practice_subdir
+   13  cp practice_subdir/notes.txt .
+   14  date
+   15  uptime
+   16  du -sh ~
+   17  ssh -V
+   18  java -version
+   19  python3 --version
+   20  apache2 -v
+   21  mysql --version
+   22  php -v
+   23  git checkout -b finalexam
+   24  history > exam_log.txt
+   25  git add exam_log.txt
+   26  git commit -m "Added exam_log.txt with command history"
+   27  git push origin final exam
+   28  git branch
+   29  git checkout finalexam
+   30  git add exam_log.txt
+   31  git commit -m "Added exam_log.txt with command history"
+   32  git add
+   33  git add .
+   34  git status
+   35  git commit -m "Added exam_log.txt with command history"
+   36  git push origin finalexam
+   37  git checkout -b finalexam
+   38  history > exam_log.txt
